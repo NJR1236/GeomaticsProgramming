@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 //Author:WuYang
 //First_Edit_Time:2022-10-31 18:51
-//Last_Edit_Time:2022-10-31 20:25
+//Last_Edit_Time:2022-10-31 20:26
 
 //手动输入控制点的点名、高程、XY坐标，然后按照规定的格式输出这些值。
 //PName-点名;
