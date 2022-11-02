@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8FD428D2-6CB0-42E0-BE08-42A73FAB21CE}</ProjectGuid>
+    <ProjectGuid>{1D7E4544-C63B-4E24-B73A-FA74D41ACB1D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GeoCourse1</RootNamespace>
-    <AssemblyName>GeoCourse1</AssemblyName>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Course1.cs" />
+    <Compile Include="test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

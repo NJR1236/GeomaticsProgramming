@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace GeoCourse1
 {
-    class Program
+    class Course1
     {
         static void Main(string[] args)
         {
