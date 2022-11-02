@@ -14,9 +14,9 @@ using System.Threading.Tasks;
 //X-坐标X；
 //Y-坐标Y;
 
-namespace GeoCourse1
+namespace GC1.ReadPoint
 {
-    class Course1
+    class ReadPoint
     {
         static void Main(string[] args)
         {

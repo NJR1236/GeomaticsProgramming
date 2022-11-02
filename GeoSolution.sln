@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCourse1", "GeoCourse1\GeoCourse1.csproj", "{8FD428D2-6CB0-42E0-BE08-42A73FAB21CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC1.ReadPoint", "GeoCourse1\GC1.ReadPoint.csproj", "{8FD428D2-6CB0-42E0-BE08-42A73FAB21CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCourse2", "GeoCourse2\GeoCourse2.csproj", "{9D6814BC-4C22-4115-AFF4-0ED3DFB794D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC2.LevelingMeasurement", "GeoCourse2\GC2.LevelingMeasurement.csproj", "{9D6814BC-4C22-4115-AFF4-0ED3DFB794D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1D7E4544-C63B-4E24-B73A-FA74D41ACB1D}"
 EndProject
