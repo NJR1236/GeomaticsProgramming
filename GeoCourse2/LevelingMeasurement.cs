@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using LevelingCalculation;      //引用LevelingCalculation Namespace
 
 //Author:WuYang
-//First_Edit_Time:2022-11-02 21:45
-//Last_Edit_Time:2022-11-02 23:27
+//Created_Time:2022-11-02 21:45
+//LastEdit_Time:2022-11-02 23:27
 
 //手动输入已知点的点名和高程与未知点的点名，再通过观测高差，计算出未知点的高程并输出。
 //LM.KnPName-已知点点名

@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test
+namespace GeoCourse3
 {
-    class test
+    class DMS2Rad
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
