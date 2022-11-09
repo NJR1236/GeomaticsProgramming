@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 //Created_Time:2022-11-08 16:55
 //LastEdit_Time:2022-11-08 18:45
 
-//根据需求，选择一种弧角转换方式：将弧度值转换为角度值，并保留两位小数；或者以ddmmss格式输入角度值，并将角度值转换为弧度值，。
+//根据需求，选择一种弧角转换方式：将弧度值转换为角度值，并保留两位小数；或者以ddmmss格式输入角度值，并将角度值转换为弧度值。
 //Rad-弧度值
 //Angle-角度值
 
@@ -31,7 +31,7 @@ namespace GC3.Rad_DMS
         public static void DMS2Rad(double @angle)
         {
             double Rad;
-            // @angle 格式为ddmmss
+            // @angle 格式为dd.mmss
             double p1 = Math.Floor(@angle);                         //提取度
             double p2 = Math.Floor((@angle - p1) * 100);       //提取分
             double p3 = ((@angle - p1) * 100 - p2) * 100;       //提取秒
