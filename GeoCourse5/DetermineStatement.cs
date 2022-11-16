@@ -19,7 +19,7 @@ namespace GC5.DetermineStatement
         {
             //根据parDetermine的取值选择判断条件类型
             Console.WriteLine("请选择判断条件类型：\n'0'代表Switch，'1'代表If：");
-            int parDetermine =Convert.ToInt32(Console.ReadLine());
+            int parDetermine = Convert.ToInt32(Console.ReadLine());
             //Switch判断类型
             if (parDetermine == 0)
             {
@@ -45,11 +45,11 @@ namespace GC5.DetermineStatement
     class DetermineStatement_Switch
     {
         //根据输入的分数，使用SwitchCase语句将分数分为6个等级
-        public static void SwitchDetermine (double parScore)
-            {
+        public static void SwitchDetermine(double parScore)
+        {
             double Score = parScore;
-        int number = Convert.ToInt32(Math.Floor(Score / 10));
-            switch (number) 
+            int number = Convert.ToInt32(Math.Floor(Score / 10));
+            switch (number)
             {
                 case 10:
                     Console.WriteLine("你的成绩：满分");
@@ -71,7 +71,7 @@ namespace GC5.DetermineStatement
                     break;
             }
         }
-}
+    }
     class DetermineStatement_If
     {
         //根据输入的坐标，使用If判断点所处的象限
