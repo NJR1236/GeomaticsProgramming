@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 //Created_Time:2022-11-16 19:32
 //LastEdit_Time:2022-11-15 01:55
 
+//随机生成N位同学介于50-100的成绩，对它们按高到低排序，并根据成绩进行评级，然后输出前五名同学的成绩，最后计算全班平均分和优秀率并输出。
+
 namespace GC6.StudentRanking
 {
     struct StudentInfo
