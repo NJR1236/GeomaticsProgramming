@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 //Created_Time:2022-11-21 22:04
 //LastEdit_Time:2022-11-21 01:57
 
+//task1:矩阵求和
+//task2:矩阵求积
+//task3:矩阵求逆
+
 namespace GC7.MatrixAlgebra
 {
     class Program
