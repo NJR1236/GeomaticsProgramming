@@ -26,6 +26,7 @@ namespace GC6.StudentRanking
             Console.WriteLine("请输入该班学生人数：");
             int StudentAmount = Convert.ToInt32(Console.ReadLine());
             StudentRanking.StudentRank(StudentAmount);
+            Console.ReadKey();
         } 
     }
     class StudentRanking
@@ -106,7 +107,6 @@ namespace GC6.StudentRanking
             {
                 Console.WriteLine("{0},{1},{2},{3}", Student[i].Rank, Student[i].Name, Student[i].Score, Student[i].Grade);
             }
-            Console.ReadKey();
         }
     }
     class Name
