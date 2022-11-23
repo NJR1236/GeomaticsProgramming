@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 //LastEdit_Time:2022-11-21 01:57
 
 //task1:矩阵求和
-//task2:矩阵求积
-//task3:矩阵求逆
+//task2:矩阵求差
+//task3:矩阵求积
+//task4:矩阵求逆
 
 namespace GC7.MatrixAlgebra
 {
@@ -18,7 +19,7 @@ namespace GC7.MatrixAlgebra
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("请选择所需的MatrixModel，0为矩阵求和，1位矩阵求积，2为矩阵求逆");
+            Console.WriteLine("请选择所需的MatrixModel，0为矩阵求和，1位矩阵求差，2为矩阵求积，3为矩阵求逆");
             int MatrixModelNumber=Convert.ToInt32(Console.ReadLine());
             if (MatrixModelNumber==0)
             {
@@ -29,7 +30,16 @@ namespace GC7.MatrixAlgebra
                 double[,] B = MatrixAlgebra.ReadMatrix();
                 double[,] C = MatrixAlgebra.AddMatrix(A, B);
             }
-            else if (MatrixModelNumber==1)
+            else if (MatrixModelNumber == 1)
+            {
+                //矩阵求差
+                Console.WriteLine("\n请输入第一个矩阵");
+                double[,] A = MatrixAlgebra.ReadMatrix();
+                Console.WriteLine("\n请输入第二个矩阵");
+                double[,] B = MatrixAlgebra.ReadMatrix();
+                double[,] D = MatrixAlgebra.SubMatrix(A, B);
+            }
+            else if (MatrixModelNumber==2)
             {
                 //矩阵求积
                 Console.WriteLine("\n请输入第一个矩阵");
@@ -38,7 +48,7 @@ namespace GC7.MatrixAlgebra
                 double[,] B = MatrixAlgebra.ReadMatrix();
                 double[,] D = MatrixAlgebra.MultiplyMatrix(A, B);
             }
-            else if (MatrixModelNumber==2)
+            else if (MatrixModelNumber==3)
             {
                 //矩阵求逆
                 Console.WriteLine("\n请输入需要求逆的矩阵：");
@@ -93,6 +103,30 @@ namespace GC7.MatrixAlgebra
                     for (int j = 0; j < column; j++)
                     {
                         C[i, j] = A[i, j] + B[i, j];
+                        Console.Write("{0}\0", C[i, j]);
+                    }
+                    Console.Write("\n");
+                }
+            }
+            else
+            {
+                Console.WriteLine("\n您输入的两个矩阵具有不同的行列数！");
+            }
+            return C;
+        }
+        public static double[,] SubMatrix(double[,] A, double[,] B)
+        {
+            double[,] C = new double[A.GetLength(0), A.GetLength(1)];
+            if (A.GetLength(0) == B.GetLength(0) && A.GetLength(1) == B.GetLength(1))
+            {
+                int row = A.GetLength(0);
+                int column = A.GetLength(1);
+                Console.WriteLine("\n矩阵求差结果为：");
+                for (int i = 0; i < row; i++)
+                {
+                    for (int j = 0; j < column; j++)
+                    {
+                        C[i, j] = A[i, j] - B[i, j];
                         Console.Write("{0}\0", C[i, j]);
                     }
                     Console.Write("\n");
