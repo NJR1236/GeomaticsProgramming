@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC6.StudentRanking", "GeoCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC7.MatrixAlgebra", "GeoCourse7\GC7.MatrixAlgebra.csproj", "{59751712-B3CE-4648-A0A1-D2AE4095EDB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GC8.FileOperation", "GeoCourse8\GC8.FileOperation.csproj", "{1C81E39C-C35C-44C7-BFFB-B0B84C2BFA7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{59751712-B3CE-4648-A0A1-D2AE4095EDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59751712-B3CE-4648-A0A1-D2AE4095EDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59751712-B3CE-4648-A0A1-D2AE4095EDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C81E39C-C35C-44C7-BFFB-B0B84C2BFA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C81E39C-C35C-44C7-BFFB-B0B84C2BFA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C81E39C-C35C-44C7-BFFB-B0B84C2BFA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C81E39C-C35C-44C7-BFFB-B0B84C2BFA7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
