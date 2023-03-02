@@ -1,4 +1,4 @@
-# GeoSolution
+# GeomaticsProgramming
 It is a repository for the course 'Geomatics Programming with C#'.
 
 The GeoSolution is sorted by GeoCourse,which includes Solution,Project,Class.
